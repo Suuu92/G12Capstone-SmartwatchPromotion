@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Videos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js">
+        var elem = document.getElementById("myvideo");
+        function openFullscreen() {
+            if (elem.requestFullscreen) {
+                elem.requestFullscreen();
+            } else if (elem.webkitRequestFullscreen) { /* Safari */
+                elem.webkitRequestFullscreen();
+            } else if (elem.msRequestFullscreen) { /* IE11 */
+                elem.msRequestFullscreen();
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cantarell&family=Kalam:wght@300&family=Lora:ital,wght@0,500;1,600&family=Signika+Negative&family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<nav class="navbar navbar-expand-sm">
+    <div class="container-fluid">
+        <img class="img-fluid" src="logo.PNG" width="60" height="30" alt="Logo">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="product.html">Product</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="functions.html">Functions</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Visual Media</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="image.html">Images</a></li>
+                        <li><a class="dropdown-item" href="video.html">Videos</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutUs.html">About Us</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="text" placeholder="Search for product">
+                <button class="btn btn-secondary" type="button">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<div class="container text-center mt-5">
+    <h2 class="text-center" style="font-size: 50px">Promotional Video</h2>
+</div>
+
+<video width="100%" controls id="myvideo">
+    <source src="Suzen-%20Capstone%20Promo%20Video.MOV" type="video/mp4">
+    <source src="Suzen-%20Capstone%20Promo%20Video.MOV" type="video/ogg">
+</video>
+
+<footer class="text-center p-5 mt-5">
+    <p class="pb-3">#3228 ROSS DRIVE, V6S 0C6, VANCOUVER, BC, CANADA 236.788.9221  SUZENNN92@GMAIL.COM</p>
+    <a class="btn btn-secondary" href="https://www.facebook.com/profile.php?id=100077478468929"><span class="bi-facebook" style="font-size: 25px"></span></a>
+    <a class="btn btn-secondary" href="https://twitter.com/Suuu_92ovo" ><span class="bi-twitter" style="font-size: 25px"></span></a>
+    <a class="btn btn-secondary" href="https://www.instagram.com/suzennn92/" ><span class="bi-instagram" style="font-size: 25px"></span></a>
+</footer>
+
+</body>
+</html>
