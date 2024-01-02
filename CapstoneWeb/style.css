@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #D7E9B9;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    box-shadow: 0px 2px 10px black;
+}
+
+#content{
+    background-color: #FFFBAC;
+    font-family: 'Oleo Script', cursive;
+    font-weight: bold;
+    box-shadow: 0px 3px 5px black;
+}
+
+h1{
+    font-size: 70px;
+    font-family: 'Oleo Script', cursive;
+}
+
+h2{
+    font-size: 40px;
+    font-family: 'Oleo Script', cursive;
+}
+
+h3{
+    font-size: 40px;
+}
+
+p{
+    font-size: 22px;
+}
+
+#flow{
+    background-color: #FFD495;
+    font-family: 'Baskervville', serif;
+    font-size: 35px;
+}
+
+#flow2{
+    background-color: #FAAB78;
+    font-family: 'Baskervville', serif;
+    font-size: 35px;
+}
+
+.btn-outline-dark{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+
+#flow3{
+    background-color: #CEEDC7;
+    font-family: 'Baskervville', serif;
+    font-size: 35px;
+}
+
+footer{
+    background-color: #86C8BC;
+    font-size: 15px;
+    color: white;
+    font-family: Avenir Next, serif;
+    letter-spacing: 2px;
+    box-shadow: 0px 2px 10px black;
+}
+
+#homeImg{
+    background-repeat: repeat;
+    transition: 5s;
+}
+
+#round{
+    display: inline-block;
+    width: 50%;
+    margin: auto;
+    background-color: #FFD495;
+}
+
+.carousel-inner img {
+    margin: auto;
+}
+
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-indicators{
+    filter: invert(100%);
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Baskervville', serif;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+#circle{
+    border-radius: 50%;
+    background-color: #FAAB78;
+    color: white;
+}
+
+.about-section {
+    padding: 50px;
+    text-align: center;
+    font-family: Avenir Next, serif;
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+#change{
+    transition: 0.3s;
+    text-align: center;
+}
+
+#change.hover{
+    color: black;
+}
+
+hr.dashed {
+    width: 80%;
+    margin: auto;
+    border-top: 7px dashed #24c9af;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 6s;
+}
+
+.functions {
+    border: 1px solid;
+}
+
+.images {
+    text-align: center;
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column2 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+}
+
+.column2 img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column2 {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column2 {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
