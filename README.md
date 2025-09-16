@@ -13,7 +13,6 @@ This website promotes a revolutionary running watch design that builds upon Garm
 - **Responsive Design**: Built with Bootstrap 5 for mobile-first responsive layout
 - **Modern UI/UX**: Clean, colorful design with custom CSS styling
 - **Interactive Navigation**: Dropdown menus and search functionality
-- **Social Media Integration**: Links to Facebook, Twitter, and Instagram
 - **Multi-page Structure**: Comprehensive information architecture
 
 ### Product Features (Conceptual)
